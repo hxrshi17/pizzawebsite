@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            background-image: url("C:\Users\user\OneDrive\Desktop\sourdough-pizza-crust.jpg");
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #000ff0;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .order-btn {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .order-btn:hover {
+            background-color: #c0392b;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .addtocart {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .addtocart {
+            background-color: white;
+            color: black;
+            border: 2px solid #04AA6D;
+        }
+
+        .addtocart:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="Supatryupdatedmenu.html">Menu</a>
+        <a href="./About(Chhavi).html">About</a>
+        <a href="ONoja contact.html">Contact</a>
+    </nav>
+
+
+
+
+    <div class="hero">
+        <div>
+            <h1>Welcome to Delicious Pizza!</h1>
+            <p>Order now and enjoy the taste of our amazing pizzas.</p>
+            <a class="addtocart" href="./Supatryupdatedmenu.html">Order Now!</a>
+        </div>
+    </div>
+    <table border="solid black" width="10" height="10">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://www.tgip.in/wp-content/uploads/2022/10/pepperoni.jpg" width="90px"
+                        height="90px"></img></td>
+                        <td>Pepperoni</td>
+                <td>Small/Medium/Large</td>
+                <td>Rs.300.00</td>
+                <td><a class="addtocart" href="./addtocart.html">ADD</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://uk.ooni.com/cdn/shop/articles/20220211142645-margherita-9920.jpg?crop=center&height=800&v=1660843558&width=800"
+                        width="90px" height="90px"></img></td>
+                        <td>Margherita</td>
+                <td>Small/Medium/Large</td>
+                <td>Rs.200.00</td>
+                <td><a class="addtocart" href="./addtocart2.html">ADD</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-czfSL15waWkzYTbE7lkhiVbhS6vldXDos85Ky4Ux_w&s"
+                        width="90px" height="90px"></img></td>
+                        <td>Silician Pizza</td>
+                <td>Small/Medium/Large</td>
+                <td>Rs.500.00</td>
+                <td><a class="addtocart" href="./addtocart3.html">ADD</a></td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0oY3fmtNLgHo7sKd_DCYbgIh_fi85ga42-FKjbCOrOg&s"
+                        width="90px" height="90px"></img></td>
+                        <td>Neapolitan Pizza</td>
+                <td>Small/Medium/Large</td>
+                <td>Rs.700.00</td>
+                <td><a class="addtocart" href="./addtocart4.html">ADD</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
